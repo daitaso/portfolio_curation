@@ -1,0 +1,44 @@
+/*
+ * メニュー
+ */
+.p-nav {
+  width: 330px;
+  position: relative;
+  float: right;
+
+  &__ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 80px;
+
+    &__li{
+      float: left;
+      &__a{
+        padding: 10px 15px;
+        color: #990073;
+        text-decoration: none;
+        font-family: 'Noto Serif SC', serif;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      &--reverse {
+        background: #990073;
+        &__a{
+          padding: 10px 15px;
+          color: #fff;
+          text-decoration: none;
+          font-family: 'Noto Serif SC', serif;
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  &__a:hover{
+    text-decoration: underline;
+  }
+}

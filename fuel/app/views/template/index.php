@@ -1,0 +1,13 @@
+<!--共通ページ構造部品(view)-->
+<!--役割：全ページ共通の大枠のページ構造部品です-->
+<html>
+<head>
+	<?=$head?>
+</head>
+<body>
+	<?=$header?>
+	<?=$contents?>
+	<?=$footer?>
+    <?=$script?>
+</body>
+</html>

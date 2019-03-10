@@ -1,0 +1,76 @@
+/*
+  基本スタイル
+*/
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+h1{
+  font-weight: bold;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+h2{
+  font-family: 'Noto Serif SC', serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2A2A2A;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  text-decoration: none; }
+
+form {
+  overflow: hidden; }
+form > table {
+  width: 100%; }
+form > table tr > td:first-child {
+  width: 40%; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #f5f4f3 inset;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  background: #f5f4f3;
+  border: none;
+  width: 100%; }
+
+textarea {
+  background: #f5f4f3;
+  border: none;
+  width: 100%; }
+
+input[type="text"], input[type="password"], input[type="email"] {
+  color: #545454;
+  height: 60px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  box-sizing: border-box; }
+
+input[type="submit"] {
+  border: none;
+  padding: 15px 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #3d3938;
+  color: white;
+  float: right;
+  width: 150px;
+  font-size: 1em; }
+
+input[type="submit"]:hover {
+  background: #111;
+  cursor: pointer; }

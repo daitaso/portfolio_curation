@@ -1,0 +1,36 @@
+/*
+ * サイト
+ */
+.l-site-980{
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  /* コンテンツ */
+  &__contents{
+    float : left;
+    width : 750px;
+    margin-bottom: 40px;
+  }
+  /* サイドバー */
+  &__sidebar{
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 15px;
+    min-height: 600px;
+    width: 210px;
+  }
+}
+.l-site-640{
+  width: 640px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+.l-site-500{
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}

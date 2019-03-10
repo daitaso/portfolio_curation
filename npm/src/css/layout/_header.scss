@@ -1,0 +1,15 @@
+/*
+ * ヘッダー
+ */
+.l-header {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  border-bottom: 1px solid #990073;
+  overflow: hidden;
+  &__width-980{
+    width: 980px;
+    margin: 0 auto;
+  }
+}

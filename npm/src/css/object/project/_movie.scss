@@ -1,0 +1,17 @@
+/*
+ * 動画
+ */
+.p-movie-container{
+  margin-bottom: 30px;
+}
+.p-movie-caption{
+  overflow: hidden;
+  &__h1{
+    float :left;
+  }
+  &__i{
+    float: right;
+    margin-top: 25px;
+  }
+}
+

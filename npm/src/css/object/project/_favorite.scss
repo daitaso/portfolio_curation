@@ -1,0 +1,20 @@
+/*
+ * お気に入り登録ボタン
+ */
+.p-icn-like {
+  color: #ddd;
+  font-size: 25px;
+  &:hover{
+    cursor: pointer;
+  }
+  &--active{
+    color: #fe8a8b;
+    animation: favPushAnimation .2s ease-out;
+  }
+}
+
+@keyframes favPushAnimation {
+  0% {
+    transform: scale(0.7); }
+  100% {
+    transform: scale(1); } }

@@ -1,0 +1,38 @@
+/*
+ * パネルリスト
+ */
+.c-panel-list {
+  overflow: hidden;
+  margin-right: -15px;
+
+  &__panel{
+    float: left;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-bottom: 15px;
+    height: 175px;
+    width: 23%;
+    color: #333;
+    text-decoration: none;
+    &__img{
+      width: 100%;
+    }
+    &__title{
+      font-weight: bold;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 14px;
+      line-height: 2;
+    }
+    &__fromnow{
+      margin: 0;
+      color:#606060;
+      font-size: 12px;
+    }
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
