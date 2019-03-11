@@ -115,6 +115,8 @@ new Vue({
       if(category !== null){
         url += '&category=' + category
       }
+      this.isLoaded = false
+      this.exists   = false
       axios
           .get(url)
           .then(response => {
@@ -122,7 +124,10 @@ new Vue({
             if(this.info.total_rec_num !== 0){
               this.exists = true //動画が１件以上存在した
             }
-            this.isLoaded  = true
+            var self = this;
+            setTimeout(function () {
+              self.isLoaded  = true
+            },500)
           })
     }
   },

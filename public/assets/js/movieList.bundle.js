@@ -40524,12 +40524,17 @@ new _vue2.default({
       if (category !== null) {
         url += '&category=' + category;
       }
+      this.isLoaded = false;
+      this.exists = false;
       _axios2.default.get(url).then(function (response) {
         _this.info = response.data;
         if (_this.info.total_rec_num !== 0) {
           _this.exists = true; //動画が１件以上存在した
         }
-        _this.isLoaded = true;
+        var self = _this;
+        setTimeout(function () {
+          self.isLoaded = true;
+        }, 500);
       });
     }
   },

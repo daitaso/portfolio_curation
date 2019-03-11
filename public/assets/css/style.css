@@ -451,7 +451,11 @@ input[type="submit"]:hover {
   color: #606060;
   padding-left: 5px; }
 
+.u-center {
+  text-align: center; }
+
 .u-vartical-center {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
