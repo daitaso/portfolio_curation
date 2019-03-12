@@ -48,10 +48,10 @@
 
                 <!-- vueコンポーネント（ページネーション）       -->
                 <div class="c-pagination" v-if="exists">
-                    <pagenation :pages="info.pages" :cur_page="info.cur_page" :keyword="info.keyword" :category="info.category" v-on:page-change="onPageChange"></pagenation>
+                    <pagenation :pages="info.pages" :cur_page="info.cur_page" :keyword="info.keyword" :category="info.category" :total_page_num="info.total_page_num" v-on:page-change="onPageChange"></pagenation>
                 </div>
             </div>
-            <div style="position: relative;height: 300px" v-else>
+            <div style="position: relative;height: 500px" v-else>
                 <?=Asset::img('ajax-loader.gif',array('class' => 'u-vartical-center'))?>
             </div>
         </div>

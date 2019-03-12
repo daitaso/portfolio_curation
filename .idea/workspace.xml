@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d1dec0fe-f349-4213-b4d9-d9769815e557" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuel/app/classes/controller/api/movies.php" beforeDir="false" afterPath="$PROJECT_DIR$/fuel/app/classes/controller/api/movies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuel/app/logs/2019/03/11.php" beforeDir="false" afterPath="$PROJECT_DIR$/fuel/app/logs/2019/03/11.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuel/app/views/movielist.php" beforeDir="false" afterPath="$PROJECT_DIR$/fuel/app/views/movielist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm/src/css/object/component/_pageNation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/npm/src/css/object/component/_pageNation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/npm/src/css/object/utility/_util.scss" beforeDir="false" afterPath="$PROJECT_DIR$/npm/src/css/object/utility/_util.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/npm/src/js/movieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/npm/src/js/movieList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
@@ -32,10 +35,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fuel/app/views/movielist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="136">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/npm/src/js/movieList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,20 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/npm/src/css/object/utility/_util.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/npm/src/js/movieList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,6 +76,23 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/npm/src/css/object/project/_logo.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fuel/app/classes/controller/api/movies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="88" selection-start-line="87" selection-start-column="39" selection-end-line="88" />
+              <folding>
+                <element signature="e#6#8#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fuel/app/logs/2019/03/11.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -93,25 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/npm/src/css/object/component/_pageNation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuel/app/views/template/head.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fuel/app/classes/controller/movielist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#6#8#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -207,7 +210,6 @@
         <option value="$PROJECT_DIR$/fuel/app/classes/controller/favoritelist.php" />
         <option value="$PROJECT_DIR$/fuel/app/config/db.php" />
         <option value="$PROJECT_DIR$/npm/src/css/object/project/_panelList.scss" />
-        <option value="$PROJECT_DIR$/npm/src/css/object/component/_pageNation.scss" />
         <option value="$PROJECT_DIR$/npm/src/css/object/component/_panelList.scss" />
         <option value="$PROJECT_DIR$/npm/src/css/style.scss" />
         <option value="$PROJECT_DIR$/npm/src/js/favoriteList.js" />
@@ -216,11 +218,12 @@
         <option value="$PROJECT_DIR$/npm/src/css/object/project/_tag.scss" />
         <option value="$PROJECT_DIR$/npm/src/css/layout/_fotter.scss" />
         <option value="$PROJECT_DIR$/npm/src/css/layout/_contents.scss" />
-        <option value="$PROJECT_DIR$/fuel/app/classes/controller/api/movies.php" />
         <option value="$PROJECT_DIR$/fuel/app/classes/controller/api/tags.php" />
         <option value="$PROJECT_DIR$/fuel/app/classes/controller/api/exthtml.php" />
-        <option value="$PROJECT_DIR$/npm/src/js/movieList.js" />
+        <option value="$PROJECT_DIR$/npm/src/css/object/component/_pageNation.scss" />
         <option value="$PROJECT_DIR$/npm/src/css/object/utility/_util.scss" />
+        <option value="$PROJECT_DIR$/fuel/app/classes/controller/api/movies.php" />
+        <option value="$PROJECT_DIR$/npm/src/js/movieList.js" />
         <option value="$PROJECT_DIR$/fuel/app/views/movielist.php" />
       </list>
     </option>
@@ -244,7 +247,7 @@
       <path value="$PROJECT_DIR$/fuel/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="52" />
     <option name="y" value="52" />
     <option name="width" value="1582" />
@@ -319,7 +322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,6 +363,30 @@
               <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curation" type="462c0819:PsiDirectoryNode" />
+              <item name="fuel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curation" type="462c0819:PsiDirectoryNode" />
+              <item name="fuel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curation" type="462c0819:PsiDirectoryNode" />
+              <item name="fuel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+              <item name="03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="curation" type="b2602c69:ProjectViewProjectNode" />
@@ -430,10 +456,18 @@
               <item name="object" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="curation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curation" type="462c0819:PsiDirectoryNode" />
+              <item name="npm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,12 +586,13 @@
       <workItem from="1551786428212" duration="48000" />
       <workItem from="1552202544995" duration="429000" />
       <workItem from="1552231131594" duration="4864000" />
-      <workItem from="1552303680543" duration="6580000" />
+      <workItem from="1552303680543" duration="13334000" />
+      <workItem from="1552324173148" duration="346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="545522000" />
+    <option name="totallyTimeSpent" value="552622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,7 +607,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.2707889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.27345416" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005417" side_tool="true" weight="0.20895523" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -628,9 +663,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fuel/app/config/development/db.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/fuel/app/config/test/db.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -814,16 +846,6 @@
     <entry file="file://$PROJECT_DIR$/npm/src/css/object/project/_movie.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/classes/controller/api/exthtml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <element signature="e#6#8#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/npm/src/css/layout/_contents.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -852,30 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/classes/controller/api/movies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="e#6#8#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fuel/app/views/favoritelist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm/src/js/movieList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,14 +894,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fuel/app/views/template/header.php">
+    <entry file="file://$PROJECT_DIR$/fuel/app/classes/controller/api/exthtml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="98" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="98" />
+        <state relative-caret-position="476">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="e#6#8#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm/src/css/object/project/_logo.scss">
+    <entry file="file://$PROJECT_DIR$/npm/src/css/object/utility/_util.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuel/app/logs/2019/03/11.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/npm/src/css/object/project/_favorite.scss">
@@ -914,24 +926,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/npm/src/css/object/component/_pageNation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm/src/css/object/utility/_util.scss">
+    <entry file="file://$PROJECT_DIR$/fuel/app/classes/controller/api/movies.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="714">
+          <caret line="88" selection-start-line="87" selection-start-column="39" selection-end-line="88" />
+          <folding>
+            <element signature="e#6#8#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/npm/src/css/object/project/_logo.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuel/app/views/template/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="98" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/npm/src/js/movieList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuel/app/views/movielist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="136">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -50,7 +50,7 @@ Vue.component('thumb-panel', {
 // ページネーション（vueコンポーネント）
 //
 Vue.component('pagenation', {
-  props:['pages','keyword','cur_page','category'],
+  props:['pages','keyword','cur_page','category','total_page_num'],
   computed: {
     createPushClass : function () {
       let cur_page = this.cur_page
@@ -65,9 +65,21 @@ Vue.component('pagenation', {
   },
   template: `
                 <ul class="c-pagination__list">
+                    <li class="c-pagination__list__list-item " v-if="cur_page > 1" >
+                        <button class="c-pagination__list__list-item__button" v-on:click="$emit('page-change',1,keyword,category)">&lt&lt</button>
+                    </li>                    
+                    <li class="c-pagination__list__list-item u-mrs" v-if="cur_page > 1" >
+                        <button class="c-pagination__list__list-item__button" v-on:click="$emit('page-change',Number(cur_page) - 1,keyword,category)">&lt</button>
+                    </li>                    
                     <li class="c-pagination__list__list-item" v-for="page in pages">
                         <button class="c-pagination__list__list-item__button" :class="createPushClass(page)" v-on:click="$emit('page-change',page,keyword,category)">{{page}}</button>
                     </li>
+                    <li class="c-pagination__list__list-item u-mls" v-if="cur_page < total_page_num" >
+                        <button class="c-pagination__list__list-item__button" v-on:click="$emit('page-change',Number(cur_page) + 1,keyword,category)">&gt</button>
+                    </li>                                        
+                    <li class="c-pagination__list__list-item" v-if="cur_page < total_page_num" >
+                        <button class="c-pagination__list__list-item__button" v-on:click="$emit('page-change',total_page_num,keyword,category)">&gt&gt</button>
+                    </li>                                        
                 </ul>
              `
 })

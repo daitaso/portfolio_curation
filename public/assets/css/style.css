@@ -328,8 +328,6 @@ input[type="submit"]:hover {
       left: -50%;
       float: left;
       margin-right: 5px; }
-      .c-pagination__list__list-item:last-child {
-        margin-right: 0; }
       .c-pagination__list__list-item__button {
         display: inline-block;
         padding: 0.5em 1em;
@@ -465,3 +463,9 @@ input[type="submit"]:hover {
 
 .u-mbs {
   margin-bottom: 20px; }
+
+.u-mls {
+  margin-left: 20px; }
+
+.u-mrs {
+  margin-right: 20px; }

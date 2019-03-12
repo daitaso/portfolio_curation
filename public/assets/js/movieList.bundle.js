@@ -40465,7 +40465,7 @@ _vue2.default.component('thumb-panel', {
 // ページネーション（vueコンポーネント）
 //
 _vue2.default.component('pagenation', {
-  props: ['pages', 'keyword', 'cur_page', 'category'],
+  props: ['pages', 'keyword', 'cur_page', 'category', 'total_page_num'],
   computed: {
     createPushClass: function createPushClass() {
       var cur_page = this.cur_page;
@@ -40478,7 +40478,7 @@ _vue2.default.component('pagenation', {
       };
     }
   },
-  template: '\n                <ul class="c-pagination__list">\n                    <li class="c-pagination__list__list-item" v-for="page in pages">\n                        <button class="c-pagination__list__list-item__button" :class="createPushClass(page)" v-on:click="$emit(\'page-change\',page,keyword,category)">{{page}}</button>\n                    </li>\n                </ul>\n             '
+  template: '\n                <ul class="c-pagination__list">\n                    <li class="c-pagination__list__list-item " v-if="cur_page > 1" >\n                        <button class="c-pagination__list__list-item__button" v-on:click="$emit(\'page-change\',1,keyword,category)">&lt&lt</button>\n                    </li>                    \n                    <li class="c-pagination__list__list-item u-mrs" v-if="cur_page > 1" >\n                        <button class="c-pagination__list__list-item__button" v-on:click="$emit(\'page-change\',Number(cur_page) - 1,keyword,category)">&lt</button>\n                    </li>                    \n                    <li class="c-pagination__list__list-item" v-for="page in pages">\n                        <button class="c-pagination__list__list-item__button" :class="createPushClass(page)" v-on:click="$emit(\'page-change\',page,keyword,category)">{{page}}</button>\n                    </li>\n                    <li class="c-pagination__list__list-item u-mls" v-if="cur_page < total_page_num" >\n                        <button class="c-pagination__list__list-item__button" v-on:click="$emit(\'page-change\',Number(cur_page) + 1,keyword,category)">&gt</button>\n                    </li>                                        \n                    <li class="c-pagination__list__list-item" v-if="cur_page < total_page_num" >\n                        <button class="c-pagination__list__list-item__button" v-on:click="$emit(\'page-change\',total_page_num,keyword,category)">&gt&gt</button>\n                    </li>                                        \n                </ul>\n             '
 });
 
 //

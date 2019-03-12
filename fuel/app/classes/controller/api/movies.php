@@ -22,6 +22,7 @@ class Controller_Api_Movies extends Controller_Rest{
         $page     = Input::Get('page');
         $favorite = Input::Get('favorite');
         $category = Input::Get('category');
+        Log::info($page);
         $show_keyword  = false;
         $show_category = false;
 
@@ -62,20 +63,29 @@ class Controller_Api_Movies extends Controller_Rest{
         $total_page_num = (int)floor($total_rec_num / self::PAGE_DATA_NUM);
         if($total_rec_num % self::PAGE_DATA_NUM !== 0) ++$total_page_num;
 
-        //開始ページ数（ページネーション）
-        $start_page = $page;
-        for($i = 1; $i <= ((self::PAGENATION_MAX_PAGE_NUM - 1) / 2);++$i){
-            if($page - $i === 0) break;
-            $start_page = $page - $i;
+        //ページネーションボタンに表示するページ範囲を判定
+        $cost = self::PAGENATION_MAX_PAGE_NUM - 1;
+        $nega_len = 0;  //$pageから負方向に画面表示可能な間の長さ
+        $posi_len = 0;  //$pageから正方向に画面表示可能な間の長さ
+        while($cost > 0){
+            $save_cost = $cost;
+
+            //負方向へ伸ばせるか？
+            if($page - $nega_len - 1 > 0){
+                --$cost;
+                ++$nega_len;
+            }
+            if($cost === 0) break;
+
+            //正方向へ伸ばせるか？
+            if($page + $posi_len + 1 <= $total_page_num){
+                --$cost;
+                ++$posi_len;
+            }
+            if($save_cost === $cost) break; //costに変動が無くなったら終わり
         }
-
-        //終了ページ数（ページネーション）
-        $end_page = $start_page + self::PAGENATION_MAX_PAGE_NUM - 1;
-        if($end_page > $total_page_num) $end_page = $total_page_num;
-
-        //カレントページが全データ中最後のページと、その１つ前の時に、開始ページを補正する
-        if((int)$page === $total_page_num     && $start_page - 2 > 0) $start_page -= 2;
-        if((int)$page === $total_page_num - 1 && $start_page - 1 > 0) $start_page -= 1;
+        $start_page = $page - $nega_len;
+        $end_page   = $page + $posi_len;
 
         //ページ番号配列作成
         $pages = range($start_page,$end_page);
@@ -91,6 +101,7 @@ class Controller_Api_Movies extends Controller_Rest{
             'start_idx'  => $start_idx,
             'end_idx'    => $end_idx,
             'total_rec_num' => $total_rec_num,
+            'total_page_num' => $total_page_num,
             'keyword'    => $keyword,
             'category'   => $category,
             'show_keyword' => $show_keyword,
